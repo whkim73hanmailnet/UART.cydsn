@@ -20,6 +20,7 @@ int main(void)
 
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     mUART_Start();
+    printf("Hello world\n\r");
     for(;;)
     {
         static float angle;
